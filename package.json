@@ -7,9 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "vite build",
-    "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
   },
   "dependencies": {
     "lucide-react": "^0.503.0",
@@ -30,6 +28,12 @@
     "postcss": "^8.5.3",
     "tailwindcss": "^3.4.17",
     "vite": "^6.3.1",
-    "homepage": "https://nitnz.github.io/Delicacy-Bakery/"
+    "homepage": "https://nazrin-z.github.io/Teddy-Bakehouse-week1",
+"scripts": {
+  "predeploy": "vite build",
+  "deploy": "gh-pages -d dist"
+}  
   }
+  
 }
+

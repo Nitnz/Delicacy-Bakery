@@ -9,7 +9,7 @@ const slides = [
 
 const Order = () => {
   const [current, setCurrent] = useState(0);
-  const [direction, setDirection] = useState(0); // 1 = next, -1 = prev
+  const [direction, setDirection] = useState(0); 
 
   const nextSlide = () => {
     setDirection(1);
@@ -38,7 +38,7 @@ const Order = () => {
         </AnimatePresence>
       </div>
 
-      <div className="relative z-10 flex flex-col px-4 sm:px-6 lg:px-8 text-amber-950 items-start ml-10 sm:ml-20 lg:ml-40 h-full justify-center mt-64 lg:mt-72">
+      <div className="relative z-10 flex flex-col px-4 sm:px-6 lg:px-8  items-start ml-10 sm:ml-20 lg:ml-40 h-full justify-center mt-64 lg:mt-72">
         <h1 className="text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-maglio mb-2 leading-tight">
           Celebrate
         </h1>
@@ -51,20 +51,16 @@ const Order = () => {
         <button className="mt-4 px-6 py-3 bg-white text-[#281612] font-nav rounded-full hover:bg-orange-100 transition duration-300 text-lg sm:text-xl lg:text-2xl">
           Order Now
         </button>
-
-        {/* Slider Buttons */}
         <div className="flex gap-4 mt-6">
           <button
             onClick={prevSlide}
-            className="px-4 py-2 bg-white text-[#281612] rounded hover:bg-orange-100 font-semibold transition"
-          >
+            className="px-4 py-2 bg-white text-[#281612] rounded hover:bg-orange-100 font-semibold transition">
           <i class='bx bx-chevron-left  text-base sm:text-lg lg:text-2xl'></i>
 
           </button>
           <button
             onClick={nextSlide}
-            className="px-4 py-2 bg-white text-[#281612] rounded hover:bg-orange-100 font-semibold transition"
-          >
+            className="px-4 py-2 bg-white text-[#281612] rounded hover:bg-orange-100 font-semibold transition">
        <i className='bx bx-chevron-right  text-base sm:text-lg lg:text-2xl'></i>
           </button>
         </div>

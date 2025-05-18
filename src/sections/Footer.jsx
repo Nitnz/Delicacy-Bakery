@@ -3,7 +3,6 @@ const footer = () => {
    <footer>
   <div className="bg-281612 text-white grid grid-cols-1 md:grid-cols-3 sm:grid-cols-2 gap-8 py-20 px-6 max-w-10xl mx-auto">
     
-    {/* Column 1 */}
     <div className="font-maglio text-lg sm:text-xl lg:text-3xl">
       <ul className="space-y-5">
         <li><a href="#" className="hover:underline">CAREER</a></li>
@@ -14,7 +13,6 @@ const footer = () => {
       </ul>
     </div>
 
-    {/* Column 2 */}
     <div className="font-maglio text-lg sm:text-xl lg:text-3xl space-y-4">
       <ul className="space-y-5">
         <li><a href="#" className="hover:underline">HELP</a></li>
@@ -24,7 +22,6 @@ const footer = () => {
       </ul>
     </div>
 
-    {/* Column 3 */}
     <div className="text-sm  grid grid-cols-1 sm:grid-cols-2 gap-6 font-sans">
       <div>
         <i className="bx bx-current-location font-maglio text-lg sm:text-xl lg:text-3xl mb-2 inline-block "> SHOP ADDRESS</i>

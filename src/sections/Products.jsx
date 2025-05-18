@@ -8,7 +8,7 @@ const Products = () => {
   <div className="relative bg-[#281612] text-white w-full py-12 px-4 sm:px-8 lg:px-10">
   <div className="flex flex-col items-center text-center max-w-7xl mx-auto">
     <h1 className="text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-maglio mt-6">Our Products</h1>
-    <p className="font-maglio mt-6 max-w-xl text-lg sm:text-xl lg:text-3xl text-neutral-200">
+    <p className="font-maglio mt-6 max-w-xl text-lg sm:text-xl lg:text-3xl">
       For more than Twenty Five years, Our Bakery has been making America’s favorite baked goods the old-fashioned way: 
       from scratch, in small batches, and using the finest ingredients.
     </p>
@@ -27,8 +27,7 @@ const Products = () => {
         <img
           src={product.image}
           alt={product.name}
-          className="h-[250px] w-[200px] object-contain mx-auto mt-4 transition-all duration-300"
-        />
+          className="h-[250px] w-[200px] object-contain mx-auto mt-4 transition-all duration-300" />
         <div className="text-black text-center mt-5 font-romul text-lg">{product.name}</div>
         <div className="text-black text-center mt-2 font-romul text-sm">{product.price}</div>
       </div>

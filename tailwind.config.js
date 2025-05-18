@@ -11,6 +11,7 @@ export default {
         'product': ['"Oswald", sans-seriff'],
         'nav': ['"Cinzel Decorative", serif'],
         romul: ['Romul', 'sans-serif'],
+        maglio:['"Maglio", serif'],
       },
       
       backgroundImage: {

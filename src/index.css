@@ -5,21 +5,19 @@
 @tailwind utilities;
 
 @layer utilities{
-    .padding{
-        @apply sm:px-16 px-8 sm:py-24 sm:py-12;
-    }
-    .padding-x{
-        @apply sm:px-16 px-8; }
 
-        .oswald {
-            @apply font-family: "Oswald", sans-serif;
-          }
           
-        @font-face {
+         @font-face {
             font-family: 'Romul';
             src: url('/src/assets/font/Romul.ttf') format('truetype');
             font-weight: normal;
             font-style: normal;
+            font-family: 'Maglio';
+            src: url('/src/assets/font/Magilio.otf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+
+
           }
           
 } 
